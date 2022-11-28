@@ -1,13 +1,28 @@
 ﻿@page "/"
 <PageTitle>In here, you can see your statistics and recommendations.</PageTitle>
 
-
+@waitingMessage
 
 @code {
+    public string waitingMessage = "Loading, please wait..";
+
+    public string activitiesPath = "data/Activities.json";
+    public string gradesPath = "data/Grades.json";
+
     private List<Activity> activities;
+
+
     protected override async Task OnInitializedAsync()
     {
+        if (!File.Exists(gradesPath)){
+            this.waitingMessage = "No saved data found, please update your grades.";
+            return;
+        }
+
         // get list of Activities and Categories
-        this.activities = JsonConvert.DeserializeObject<List<Activity>>(File.ReadAllText("data/Activities.json"));
+        this.activities = JsonConvert.DeserializeObject<List<Activity>>(File.ReadAllText(activitiesPath));
+        this.activities.ForEach(act => act.addGrade("A1-1-C1 Besoins", 80));
+
+        string hi = "hi";
     }
 }
