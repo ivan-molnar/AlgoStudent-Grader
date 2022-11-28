@@ -29,4 +29,14 @@ C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\obj\Debug\net6.0\Grader.csproj.CopyComplete
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\MudBlazor.dll
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\System.IO.Pipelines.dll
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Data\Grades.json

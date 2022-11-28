@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KCeXzKLX/aGMKoUBqZRulfyvR1Hw92fgJYZ9cXL78fE=",
+  "Hash": "IZKOXLATFGGcrrYL3xILgA9tXhIwqqhXa1vBLjimHAM=",
   "Source": "Grader",
   "BasePath": "_content/Grader",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\IvanMOLNAR\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\IvanMOLNAR\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\IvanMOLNAR\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\IvanMOLNAR\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\IvanMOLNAR\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\IvanMOLNAR\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "C:\\Users\\IvanMOLNAR\\Documents\\GitHub\\AlgoStudent-Grader\\Grader\\Grader\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Grader.styles.css",
       "SourceId": "Grader",
