@@ -1,41 +1,13 @@
 ﻿@page "/"
-
 <PageTitle>In here, you can see your statistics and recommendations.</PageTitle>
 
-grades: 100, 500, 400
 
-<hr />
-
-Sum: 
-@cat1.SumPoints
-<br>
-
-N: 
-@cat1.NGrades
-<br>
-
-Avg:
-@cat1.Avg
-<br>
-
-Max:
-@cat1.Max
-<br>
-
-Grade:
-
-@cat1.Grade
-<br />
-
-Potential:
-@cat1.Potential
 
 @code {
-    public Category cat1 = new Category();
+    private List<Activity> activities;
     protected override async Task OnInitializedAsync()
     {
-        this.cat1.MaxPoints = 1000;
-        this.cat1.Grades = new List<int>() { 100, 500, 400 };
-        this.cat1.calcGrades();
+        // get list of Activities and Categories
+        this.activities = JsonConvert.DeserializeObject<List<Activity>>(File.ReadAllText("data/Activities.json"));
     }
 }

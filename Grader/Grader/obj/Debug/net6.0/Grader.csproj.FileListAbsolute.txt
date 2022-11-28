@@ -1,9 +1,6 @@
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\appsettings.json
-C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Data\Categories.json
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Data\Grades.json
-C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Data\Stats.json
-C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Data\UserData.json
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Grader.staticwebassets.runtime.json
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Grader.exe
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Grader.deps.json
@@ -29,3 +26,7 @@ C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\obj\Debug\
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\obj\Debug\net6.0\Grader.pdb
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\obj\Debug\net6.0\Grader.genruntimeconfig.cache
 C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\obj\Debug\net6.0\ref\Grader.dll
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Data\Activities.json
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\obj\Debug\net6.0\Grader.csproj.CopyComplete

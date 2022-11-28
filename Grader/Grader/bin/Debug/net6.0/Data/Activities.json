@@ -1,0 +1,107 @@
+[
+  {
+    "Name": "A1 Analyse",
+    "Categories": [
+      {
+        "Name": "A1-1-C1 Besoins",
+        "Description": "Analyser les besoins exprimés et problématiques rencontrées par le marché pouvant faire l’objet de la création d’un logiciel en s’appuyant sur une démarche scientifique et méthodique (collecte de faits, hypothèses, identification des parties prenantes et futurs utilisateurs, tests et résultats) et en faisant preuve d’esprit d’analyse et de synthèse afin de faire remonter l’expérience utilisateurs et ainsi définir les objectifs à atteindre.",
+        "MaxPoints": 2250
+      },
+
+      {
+        "Name": "A1-1-C2 Valider",
+        "Description": "Valider le besoin identifié sur un marché, en prenant en compte les influences des différentes composantes de l’environnement (technologique -économique – politique – juridique – sociologique – écologique – démographique …) afin de s’assurer de sa véracité, sa faisabilité technique et sa viabilité économique.",
+        "MaxPoints": 1250
+      },
+
+      {
+        "Name": "A1-2-C1 Client",
+        "Description": "Analyser la demande du client, en l’interrogeant sur son contexte, ses problématiques liées à son activité, ses enjeux, ses contraintes et ses objectifs afin d’appréhender le périmètre de sa demande et obtenir un premier cadrage du futur logiciel.",
+        "MaxPoints": 1250
+      },
+
+      {
+        "Name": "A1-2-C2 Besoins",
+        "Description": "Analyser les besoins opérationnels du client en l’accompagnant dans l’identification des usages et des bénéfices attendus afin de faire émerger les idées de fonctionnalités.",
+        "MaxPoints": 2250
+      },
+
+      {
+        "Name": "A1-3-C1 Accompagner",
+        "Description": "Accompagner les entités dirigeantes et parties prenantes du logiciel dans le choix des solutions à développer en relevant les avantages et inconvénients de chacune, en faisant preuve de vulgarisation du langage employé sur les technologies, en confirmant la bonne compréhension des enjeux et des attendus liés au projet de création logicielle pour définir plus précisément les usages qui en seront faits.",
+        "MaxPoints": 2250
+      },
+
+      {
+        "Name": "A1-3-C2 Dossier",
+        "Description": "Réaliser un dossier de conception et de développement du logiciel souhaité, en prenant en compte les objectifs définis, les fonctionnalités et spécifications à mettre en œuvre, les coûts inhérents au développement et à l’exploitation du logiciel, tout en restant force de proposition de nouvelles solutions issues d’une veille réalisée sur les innovations du marché afin de formaliser de façon optimale le cahier des charges du projet.",
+        "MaxPoints": 2250
+      }
+    ]
+  },
+
+  {
+    "Name": "A2 Conception",
+    "Categories": [
+      {
+        "Name": "A2-1-C1 Concevoir",
+        "Description": "Concevoir l’architecture du logiciel souhaité en collaboration avec les équipes de développeurs, en divisant et isolant ses différentes couches (de l’interface utilisateur jusqu’au cœur des règles métier) afin de faciliter le développement, l’évolution, le déploiement et la maintenance de celui-ci.",
+        "MaxPoints": 1575
+      },
+
+      {
+        "Name": "A2-1-C2 Modéliser",
+        "Description": "Modéliser les interactions homme-machine nécessaires à l’utilisation efficace du logiciel, en hiérarchisant les informations affichées et définissant l’enchainement des tâches, afin de concevoir une interface utilisateur ergonomique garantissant une expérience utilisateur optimale.",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A2-2-C1 Définir",
+        "Description": "Définir l’approche de programmation optimale en choisissant les plateformes, les langages, les algorithmes, les matériels et technologies les plus adaptés en fonction des demandes et des solutions identifiées afin de préparer au mieux le développement du logiciel.",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A2-2-C2 Choisir",
+        "Description": "Identifier et choisir l’ensemble des outils, logiciels et ressources (matérielles, budgétaires…) nécessaires au développement du logiciel afin d’organiser de façon optimale l’ensemble des étapes du projet de création et de développement du logiciel.",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A2-2-C3 Sélectionner",
+        "Description": "Identifier et sélectionner les compétences complémentaires nécessaires à la réalisation du projet (graphistes, traducteurs, experts métiers…) afin de couvrir, avec une approche pluridisciplinaire, tous les besoins liés au projet de création logicielle.",
+        "MaxPoints": 350
+      },
+
+      {
+        "Name": "A2-2-C4 Vérifier",
+        "Description": "Vérifier les conséquences juridiques liées à l’utilisation de logiciels existants, notamment open source, dans la solution finale afin de s’assurer de sa compatibilité avec la politique de licences de l’entreprise.",
+        "MaxPoints": 350
+      },
+
+      {
+        "Name": "A2-3-C1 Anticiper",
+        "Description": "Détecter en les anticipant, les risques liés à des inconnues technologiques (maturité, obsolescence, pérennité…) et réglementaires (RGPD, certifications, traçabilité, vie privée) pouvant intervenir lors des différentes phases du projet afin de les éliminer.",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A2-3-C2 Prototyper",
+        "Description": "Réaliser les prototypes ou preuves de concept (POC) de nature à dissiper les inconnues technologiques afin de confirmer ou d’infirmer le travail de conception.",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A2-3-C3 Modéliser",
+        "Description": "Modéliser l’ensemble des données de l’application afin de faciliter leur manipulation et d’assurer leur persistance ainsi que leur sécurité (intrusion, utilisation malveillante, surface d’attaque…).",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A2-4-C1 Choisir",
+        "Description": "Identifier et choisir les briques technologiques les plus adaptées au projet, en sélectionnant celles à créer et celles à utiliser (librairies, open source…), afin d’optimiser le développement (coûts, délais…).",
+        "MaxPoints": 1575
+      }
+    ]
+  }
+]

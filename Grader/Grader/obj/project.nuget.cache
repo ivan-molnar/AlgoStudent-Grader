@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "q4TMSEz0Kw2MzetF4MLxYJ9oOXKFZQ9Q4K2QtOcklB0Eqttt32z0lJRPHFvbaZFEiejVerGJIHj+4d2fIG7gGg==",
+  "dgSpecHash": "pB//dI56kIxOdEapF6rr7rGCTw8DkoUT4/YA69K5Q/oIwkFmfoqZDRK4qskiIAguDwoagIPzTA4+6bLQ/NOd7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\IvanMOLNAR\\Documents\\GitHub\\AlgoStudent-Grader\\Grader\\Grader\\Grader.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\IvanMOLNAR\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\IvanMOLNAR\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

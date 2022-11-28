@@ -4,7 +4,6 @@
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public string Root { get; set; }
         public int MaxPoints { get; set; }
 
         // Self calculated from here
@@ -17,7 +16,7 @@
 
         public List<int> Grades = new List<int>();
 
-        public void calcGrades()
+        public void init()
         {
             this.SumPoints = 0;
             this.NGrades = 0;
@@ -37,6 +36,5 @@
                 (this.SumPoints + this.MaxPoints) / (this.NGrades + 1) / 2 + this.MaxPoints / 2 - this.Grade
                 : this.MaxPoints;
         }
-
     }
 }
