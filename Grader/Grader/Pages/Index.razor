@@ -1,9 +1,41 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>In here, you can see your statistics and recommendations.</PageTitle>
 
-<h1>Hello, world!</h1>
+grades: 100, 500, 400
 
-Welcome to your new app.
+<hr />
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+Sum: 
+@cat1.SumPoints
+<br>
+
+N: 
+@cat1.NGrades
+<br>
+
+Avg:
+@cat1.Avg
+<br>
+
+Max:
+@cat1.Max
+<br>
+
+Grade:
+
+@cat1.Grade
+<br />
+
+Potential:
+@cat1.Potential
+
+@code {
+    public Category cat1 = new Category();
+    protected override async Task OnInitializedAsync()
+    {
+        this.cat1.MaxPoints = 1000;
+        this.cat1.Grades = new List<int>() { 100, 500, 400 };
+        this.cat1.calcGrades();
+    }
+}
