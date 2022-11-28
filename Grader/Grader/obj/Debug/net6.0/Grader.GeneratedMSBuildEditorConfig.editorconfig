@@ -1,0 +1,48 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Grader
+build_property.RootNamespace = Grader
+build_property.ProjectDir = C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\IvanMOLNAR\Documents\GitHub\AlgoStudent-Grader\Grader\Grader
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/IvanMOLNAR/Documents/GitHub/AlgoStudent-Grader/Grader/Grader/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IvanMOLNAR/Documents/GitHub/AlgoStudent-Grader/Grader/Grader/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IvanMOLNAR/Documents/GitHub/AlgoStudent-Grader/Grader/Grader/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IvanMOLNAR/Documents/GitHub/AlgoStudent-Grader/Grader/Grader/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-8bqd2vj7xh
+
+[C:/Users/IvanMOLNAR/Documents/GitHub/AlgoStudent-Grader/Grader/Grader/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-k13l2d9jiu
+
+[C:/Users/IvanMOLNAR/Documents/GitHub/AlgoStudent-Grader/Grader/Grader/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IvanMOLNAR/Documents/GitHub/AlgoStudent-Grader/Grader/Grader/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IvanMOLNAR/Documents/GitHub/AlgoStudent-Grader/Grader/Grader/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
