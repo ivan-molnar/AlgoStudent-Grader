@@ -4,6 +4,7 @@
     {
         public string Name { get; set; }
         public string Description { get; set; }
+        public string Root { get; set; }
         public int MaxPoints { get; set; }
 
         // Self calculated from here
