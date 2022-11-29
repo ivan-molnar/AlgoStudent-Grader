@@ -4,27 +4,27 @@
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public int MaxPoints { get; set; }
+        public double MaxPoints { get; set; }
 
         // Self calculated from here
-        public int SumPoints = 0;
-        public int NGrades = 0;
-        public int Avg = 0;
-        public int Max = 0;
-        public int Grade = 0;
-        public int Potential = 0;
+        public double SumPoints = 0;
+        public double NGrades = 0;
+        public double Avg = 0;
+        public double Max = 0;
+        public double Grade = 0;
+        public double Potential = 0;
 
-        public List<int> Grades = new List<int>();
+        public List<double> Grades = new List<double>();
 
-        public void init(int rootMaxPoints)
+        public void init(double rootMaxPoints)
         {
             this.SumPoints = 0;
             this.NGrades = 0;
             this.Max = 0;
 
-            foreach (int grade in this.Grades)
+            foreach (double grade in this.Grades)
             {
-                int gradeP = grade * this.MaxPoints / 100;
+                double gradeP = grade * this.MaxPoints / 100;
                 this.SumPoints += gradeP;
                 this.NGrades += 1;
                 this.Max = this.Max > gradeP ? this.Max : gradeP;

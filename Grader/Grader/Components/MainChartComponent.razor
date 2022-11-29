@@ -1,0 +1,38 @@
+﻿<h3>General Grade disposition</h3>
+
+<MudChart ChartType="ChartType.Donut" LegendPosition="Position.Top" Width="300px" Height="300px"
+          InputData="@mainData" InputLabels="@mainLabels">
+</MudChart>
+
+
+@code {
+    public double[] mainData = { 0, 0, 0, 0 };
+    public string[] mainLabels = { "Owned", "Lost", "Missing", "Undefined" };
+
+    public double owned = 0;
+    public double lost = 0;
+    public double missing = 0;
+    public double undefined = 0;
+
+    [Parameter]
+    public List<Activity> activities { get; set; }
+
+    protected override async Task OnInitializedAsync(){
+        foreach (var act in this.activities)
+        {
+            this.owned += act.OwnedPerc;
+            this.lost += act.LostPerc;
+            this.missing += act.UndecidedPerc;
+            this.undefined += act.UnassignedPerc;
+        }
+
+        int l = this.activities.Count;
+
+        this.mainData = new double[] { this.owned, this.lost, this.missing, this.undefined };
+        this.mainLabels = new string[] { 
+            $"Owned {Math.Round(this.owned / l, 2)}%", 
+            $"Lost {Math.Round(this.lost/l, 2)}%",
+            $"Missing {Math.Round(this.missing/l, 2)}%",
+            $"Undefined {Math.Round(this.undefined/l, 2)}%" };
+    }
+}

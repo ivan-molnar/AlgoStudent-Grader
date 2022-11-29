@@ -3,6 +3,8 @@
 
 @waitingMessage
 
+<MainChartComponent activities="@activities"></MainChartComponent>
+
 @code {
     public string waitingMessage = "Loading, please wait..";
 
@@ -11,13 +13,14 @@
 
     private List<Activity> activities;
 
-
     protected override async Task OnInitializedAsync()
     {
         if (!File.Exists(gradesPath)){
             this.waitingMessage = "No saved data found, please update your grades.";
             return;
         }
+
+        this.waitingMessage = "";
 
         // get list of Activities and Categories
         this.activities = JsonConvert.DeserializeObject<List<Activity>>(File.ReadAllText(activitiesPath));
@@ -29,8 +32,5 @@
         }
 
         this.activities.ForEach(act => act.init());
-
-
-        string hi = "hi";
     }
 }

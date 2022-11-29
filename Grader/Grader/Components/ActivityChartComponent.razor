@@ -1,0 +1,14 @@
+﻿<h4>@activity.Name</h4>
+
+<MudChart ChartType="ChartType.Donut" LegendPosition="Position.Top" Width="300px" Height="300px"
+          InputData="@mainData" InputLabels="@mainLabels">
+</MudChart>
+
+
+@code {
+    public double[] mainData = { 0, 0, 0, 0 };
+    public string[] mainLabels = { "Owned", "Lost", "Missing", "Undefined" };
+
+    [Parameter]
+    public Activity activity { get; set; }
+}
