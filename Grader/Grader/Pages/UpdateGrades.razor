@@ -15,21 +15,22 @@ Your grades will be saved locally.
 
 @code {
     public string rawInput = "";
+    public string gradesPath = "data/Grades.json";
 
     public void editOutput(){
         List<string> explodedInput = this.rawInput.Split("\n").ToList();
-        List<KeyValuePair<string, string>> grades = new List<KeyValuePair<string, string>>();
+        List<KeyValuePair<string, int>> grades = new List<KeyValuePair<string, int>>();
 
         for (int i = 0; i < explodedInput.Count; i++)
         {
             if (DateTime.TryParse(explodedInput[i], out DateTime val) == true){
-                grades.Add(new KeyValuePair<string, string>( explodedInput[i + 1], explodedInput[i + 2] ));
+                grades.Add(new KeyValuePair<string, int>( explodedInput[i + 1], int.Parse(explodedInput[i + 3]) ));
             }
         }
 
         var output = Newtonsoft.Json.JsonConvert.SerializeObject(grades);
 
-        System.IO.File.WriteAllText("data/Grades.json", output);
+        System.IO.File.WriteAllText(gradesPath, output);
 
         Snackbar.Add($"Found {grades.Count} grades. Grades has been saved.", Severity.Success);
     }

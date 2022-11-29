@@ -21,7 +21,15 @@
 
         // get list of Activities and Categories
         this.activities = JsonConvert.DeserializeObject<List<Activity>>(File.ReadAllText(activitiesPath));
-        this.activities.ForEach(act => act.addGrade("A1-1-C1 Besoins", 80));
+        List<KeyValuePair<string, int>> grades = JsonConvert.DeserializeObject<List<KeyValuePair<string, int>>>(File.ReadAllText(gradesPath));
+
+        foreach (var grade in grades)
+        {
+            this.activities.ForEach(act => act.addGrade(grade.Key, grade.Value));
+        }
+
+        this.activities.ForEach(act => act.init());
+
 
         string hi = "hi";
     }
