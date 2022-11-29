@@ -1,9 +1,10 @@
-﻿<h4>@activity.Name</h4>
+﻿<div class="activity">
+    <h4>@activity.Name</h4>
 
-<MudChart ChartType="ChartType.Donut" LegendPosition="Position.Top" Width="300px" Height="300px"
-          InputData="@mainData" InputLabels="@mainLabels">
-</MudChart>
-
+    <MudChart ChartType="ChartType.Donut" LegendPosition="Position.Left" Width="150px" Height="150px"
+              InputData="@mainData" InputLabels="@mainLabels">
+    </MudChart>
+</div>
 
 @code {
     public double[] mainData = { 0, 0, 0, 0 };
@@ -11,4 +12,30 @@
 
     [Parameter]
     public Activity activity { get; set; }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        this.mainData = new double[] { 
+            this.activity.OwnedPerc, 
+            this.activity.LostPerc, 
+            this.activity.UndecidedPerc, 
+            this.activity.UnassignedPerc };
+
+        this.mainLabels = new string[] {
+            $"Owned {Math.Round(this.activity.OwnedPerc, 2)}%",
+            $"Lost {Math.Round(this.activity.LostPerc, 2)}%",
+            $"Missing {Math.Round(this.activity.UndecidedPerc, 2)}%",
+            $"Undefined {Math.Round(this.activity.UnassignedPerc, 2)}%" };
+    }
 }
+
+<style>
+    .activity{
+        /*border: 1px solid gray;*/
+        margin: 5px;
+        width: 300px;
+        height: 200px;
+    }
+</style>

@@ -3,7 +3,18 @@
 
 @waitingMessage
 
+
 <MainChartComponent activities="@activities"></MainChartComponent>
+
+<hr />
+<h3>Detailed Grade disposition</h3>
+
+<div class="act-container">
+    @foreach (var act in activities){
+        <ActivityChartComponent activity="act"></ActivityChartComponent>
+    }
+</div>
+
 
 @code {
     public string waitingMessage = "Loading, please wait..";
@@ -12,6 +23,7 @@
     public string gradesPath = "data/Grades.json";
 
     private List<Activity> activities;
+    private List<Category> selectedCategories = new List<Category>();
 
     protected override async Task OnInitializedAsync()
     {
@@ -33,4 +45,17 @@
 
         this.activities.ForEach(act => act.init());
     }
+
+    public void selectCategories(List<Category> categs){
+        this.selectedCategories = categs;
+    }
 }
+
+<style>
+    .act-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+</style>
