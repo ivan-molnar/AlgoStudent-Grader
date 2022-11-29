@@ -1,6 +1,7 @@
 [
   {
     "Name": "A1 Analyse",
+    "TheoricalTotal": 11500,
     "Categories": [
       {
         "Name": "A1-1-C1 Besoins",
@@ -42,6 +43,7 @@
 
   {
     "Name": "A2 Conception",
+    "TheoricalTotal": 9100,
     "Categories": [
       {
         "Name": "A2-1-C1 Concevoir",
@@ -107,6 +109,7 @@
 
   {
     "Name": "A3 Développement",
+    "TheoricalTotal": 21000,
     "Categories": [
       {
         "Name": "A3-1-C1 Rédiger",
@@ -178,6 +181,7 @@
 
   {
     "Name": "A4 Test",
+    "TheoricalTotal": 7000,
     "Categories": [
       {
         "Name": "A4-1-C1 Concevoir",
@@ -227,6 +231,251 @@
         "MaxPoints": 875
       }
     ]
-  }
+  },
 
+  {
+    "Name": "A5 Maintenance",
+    "TheoricalTotal": 3000,
+    "Categories": [
+      {
+        "Name": "A5-1-C1 Corrective",
+        "Description": "Assurer la maintenance corrective du logiciel et anticiper l’obsolescence des technologies au travers d’une veille active afin de ne pas accumuler de la dette technique.",
+        "MaxPoints": 1000
+      },
+
+      {
+        "Name": "A5-2-C1 Evolutive",
+        "Description": "Assurer la maintenance évolutive du logiciel en s’appuyant sur une veille des nouveaux usages et des nouveaux cyber-risques tout en prenant en compte les retours d’expérience et en saisissant les opportunités d’amélioration du code pour anticiper les attentes du client/marché.",
+        "MaxPoints": 1000
+      },
+
+      {
+        "Name": "A5-3-C1 Suivi",
+        "Description": "Assurer la mise à jour de la solution logicielle au regard des évolutions réglementaires afin de lui permettre de maintenir sa conformité (RGPD…).",
+        "MaxPoints": 1000
+      }
+    ]
+  },
+
+  {
+    "Name": "A6 Management",
+    "TheoricalTotal": 8400,
+    "Categories": [
+      {
+        "Name": "A6-1-C1 Responsabilités",
+        "Description": "Définir et répartir les tâches, rôles et responsabilités de chaque collaborateur en lien avec le projet de création logicielle, en fixant et en priorisant des indicateurs à suivre (qualité du livrable, dépassement du budget, du temps…) afin de permettre le partage de compétences, d’expériences et d’informations utile à l’atteinte des objectifs individuels et collectifs.",
+        "MaxPoints": 1000
+      },
+
+      {
+        "Name": "A6-1-C2 Outils",
+        "Description": "Concevoir des outils de pilotage et de suivi permettant de contrôler la mise en œuvre ou l’adaptation du projet en collaborant avec des développeurs présents ou à distance afin d’assurer l’atteinte des objectifs visés en termes de qualité et délais définis par le cahier des charges.",
+        "MaxPoints": 400
+      },
+
+      {
+        "Name": "A6-1-C3 Indicateurs",
+        "Description": "Assurer le suivi des indicateurs et la rédaction des rapports afin d’assurer à toutes les parties prenantes l’accès au même niveau d’information et de les alerter le cas échéant.",
+        "MaxPoints": 400
+      },
+
+      {
+        "Name": "A6-2-C1 Veille",
+        "Description": "Réaliser une veille technologique sur les innovations permettant d’apporter des plus-values à la solution logicielle en vue d’intégrer de nouvelles fonctionnalités ou des gains d’efficacité.",
+        "MaxPoints": 400
+      },
+
+      {
+        "Name": "A6-2-C2 Opportunités",
+        "Description": "Décider et mettre en œuvre les nouvelles opportunités identifiées par le travail de veille, auprès des développeurs tout en faisant valider leur pertinence.",
+        "MaxPoints": 400
+      },
+
+      {
+        "Name": "A6-3-C1 Organiser",
+        "Description": "Organiser la collaboration de l’équipe en télétravail ou en face à face, en permettant à chacun d’exprimer ses idées et de proposer des solutions aux difficultés rencontrées afin de renforcer le travail coopératif.",
+        "MaxPoints": 1000
+      },
+
+      {
+        "Name": "A6-3-C2 Collaboration",
+        "Description": "Elaborer les conventions et règles de fonctionnement destinées à l’équipe en charge du développement du logiciel (étapes clés, styles de code à employer, bonnes pratiques à respecter…) afin d’assurer un travail collaboratif efficace garant de l’atteinte des objectifs fixés.",
+        "MaxPoints": 1800
+      },
+
+      {
+        "Name": "A6-3-C3 Prévenir",
+        "Description": "Prévenir et gérer l’ensemble des risques et des imprévus (situations difficiles, conflits…) en adaptant avec agilité et créativité les étapes et les actions du projet afin d’apporter des solutions partagées et ainsi assurer la continuité du projet dans des conditions optimales.",
+        "MaxPoints": 1000
+      },
+
+      {
+        "Name": "A6-3-C4 Productivité",
+        "Description": "Identifier les gains de productivité possibles en lien avec les parties prenantes dédiées au projet en détectant les opportunités d’automatisation des différentes tâches et activités réalisées ou à réaliser afin d’assurer l’atteinte des objectifs dans les délais imposés.",
+        "MaxPoints": 1000
+      },
+
+      {
+        "Name": "A6-4-C1 Parties prenantes",
+        "Description": "Transmettre les messages auprès des différentes parties prenantes, en prenant soin d’adapter son vocabulaire au niveau de connaissances de ses interlocuteurs, en vulgarisant si nécessaire les informations techniques pour permettre une communication fluide et efficace.",
+        "MaxPoints": 1000
+      }
+    ]
+  },
+
+  {
+    "Name": "A7 English",
+    "TheoricalTotal": 20000,
+    "Categories": [
+      {
+        "Name": "A7-1-1 Précision",
+        "Description": "Exprimer ses idées avec précision",
+        "MaxPoints": 2000
+      },
+
+      {
+        "Name": "A7-1-2 Vocabulaire",
+        "Description": "Utiliser un vocabulaire riche",
+        "MaxPoints": 2000
+      },
+
+      {
+        "Name": "A7-1-3 TED",
+        "Description": "Animer des TED Talks",
+        "MaxPoints": 2000
+      },
+
+      {
+        "Name": "A7-2-1 Media",
+        "Description": "Comprendre tout type de supports audio ou vidéo",
+        "MaxPoints": 2000
+      },
+
+      {
+        "Name": "A7-2-2 Accents",
+        "Description": "Comprendre les accents inhabituels",
+        "MaxPoints": 2000
+      },
+
+      {
+        "Name": "A7-3-1 Precision",
+        "Description": "Exprimer ses idées avec précision",
+        "MaxPoints": 2000
+      },
+
+      {
+        "Name": "A7-3-2 Vocabulary",
+        "Description": "Utiliser un vocabulaire riche",
+        "MaxPoints": 2000
+      },
+
+      {
+        "Name": "A7-3-3 Structure",
+        "Description": "Rédiger et structurer un texte",
+        "MaxPoints": 2000
+      },
+
+      {
+        "Name": "A7-4-1 Complex",
+        "Description": "Comprendre des textes longs et complexes",
+        "MaxPoints": 2000
+      },
+
+      {
+        "Name": "A7-4-2 Vocabulary",
+        "Description": "Maîtriser un vocabulaire riche",
+        "MaxPoints": 2000
+      }
+    ]
+  },
+
+  {
+    "Name": "A8 Soft Skills",
+    "TheoricalTotal": 20020,
+    "Categories": [
+      {
+        "Name": "A8-1-1 Confiance",
+        "Description": "Avoir confiance en soi et s’affirmer",
+        "MaxPoints": 1430
+      },
+
+      {
+        "Name": "A8-1-2-1 Reading List",
+        "Description": "Reading List",
+        "MaxPoints": 300
+      },
+
+      {
+        "Name": "A8-1-3 Entreprendre",
+        "Description": "Entreprendre, oser, se lancer",
+        "MaxPoints": 1430
+      },
+
+      {
+        "Name": "A8-1-4 Se connaître",
+        "Description": "Se connaître pour révéler son potentiel",
+        "MaxPoints": 1430
+      },
+
+      {
+        "Name": "A8-1-5 Savoir-être",
+        "Description": "Se démarquer par son savoir-être",
+        "MaxPoints": 1430
+      },
+
+      {
+        "Name": "A8-2-1 Orale",
+        "Description": "Communiquer efficacement à l’oral",
+        "MaxPoints": 1430
+      },
+
+      {
+        "Name": "A8-2-2 Ecrite",
+        "Description": "Communiquer efficacement à l’écrit",
+        "MaxPoints": 1430
+      },
+
+      {
+        "Name": "A8-2-3 Différences culturelles",
+        "Description": "Comprendre les différences culturelles",
+        "MaxPoints": 1430
+      },
+
+      {
+        "Name": "A8-2-4 e-reputation",
+        "Description": "Maîtriser sa e-reputation",
+        "MaxPoints": 1430
+      },
+
+      {
+        "Name": "A8-3-1 Reformuler",
+        "Description": "Poser et reformuler des problèmes ",
+        "MaxPoints": 1430
+      },
+
+      {
+        "Name": "A8-3-2 Décomposer",
+        "Description": "Décomposer des problèmes",
+        "MaxPoints": 1430
+      },
+
+      {
+        "Name": "A8-3-3 Curiosité/Créativité",
+        "Description": "Faire preuve de curiosité et créativité.",
+        "MaxPoints": 1430
+      },
+
+      {
+        "Name": "A8-3-4 Visualiser",
+        "Description": "Visualiser un problème à plusieurs échelles",
+        "MaxPoints": 1430
+      },
+
+      {
+        "Name": "A8-3-5 Généraliser",
+        "Description": "Transformer des cas particuliers en règles génériques",
+        "MaxPoints": 1430
+      }
+    ]
+  }
 ]

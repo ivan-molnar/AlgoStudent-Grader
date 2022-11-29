@@ -4,6 +4,7 @@
     {
         public string Name { get; set; }
         public List<Category> Categories { get; set; }
+        public int TheoricalTotal { get; set; }
 
         // Self calculated from here
         public int TotalPoints = 0;
@@ -11,21 +12,34 @@
         public int LostPoints = 0;
         public int UndecidedPoints = 0;
 
+        public int OwnedPerc = 0;
+        public int LostPerc = 0;
+        public int UndecidedPerc = 0;
+
         public void init()
         {
+            this.TotalPoints = 0;
+            this.OwnedPoints = 0;
+            this.LostPoints = 0;
+
             foreach (var category in Categories)
             {
-                category.init();
+                category.init(this.TheoricalTotal);
 
                 TotalPoints += category.MaxPoints;
 
-                if(category.Grades.Count == 0) { this.UndecidedPoints += category.MaxPoints; }
-                else
+                if(category.Grades.Count != 0)
                 {
                     this.OwnedPoints += category.Grade;
                     this.LostPoints += category.MaxPoints - category.Grade;
                 }
             }
+
+            this.UndecidedPoints = this.TotalPoints - this.OwnedPoints - this.LostPoints;
+
+            this.OwnedPerc = this.OwnedPoints * 100 / this.TotalPoints;
+            this.LostPerc = this.LostPoints * 100 / this.TotalPoints;
+            this.UndecidedPerc = this.UndecidedPoints * 100 / this.TotalPoints;
         }
 
         public void addGrade(string name, int grade)
