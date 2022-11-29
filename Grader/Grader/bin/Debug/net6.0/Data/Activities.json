@@ -103,5 +103,130 @@
         "MaxPoints": 1575
       }
     ]
+  },
+
+  {
+    "Name": "A3 Développement",
+    "Categories": [
+      {
+        "Name": "A3-1-C1 Rédiger",
+        "Description": "Rédiger les plans de test du projet de développement du logiciel en identifiant l’ensemble des tests nécessaires à la vérification du bon fonctionnement du code afin de les exécuter de façon automatisée et systématique et ainsi garantir l’absence de régression.",
+        "MaxPoints": 1000
+      },
+
+      {
+        "Name": "A3-1-C2 Indicateurs",
+        "Description": "Elaborer des indicateurs de suivi de production permettant de contrôler le bon fonctionnement du logiciel à grande échelle afin d’anticiper ou de détecter au plus tôt la survenue d’une panne.",
+        "MaxPoints": 1000
+      },
+
+      {
+        "Name": "A3-2-C1 Algorithmes",
+        "Description": "Sélectionner ou concevoir les algorithmes les plus pertinents afin de satisfaire les tests unitaires et garantir la stabilité et la performance du système.",
+        "MaxPoints": 4500
+      },
+
+      {
+        "Name": "A3-2-C2-1 Functional",
+        "Description": "Functional programming (F#, LINQ, ...)",
+        "MaxPoints": 1125
+      },
+
+      {
+        "Name": "A3-2-C2-2 Imperative",
+        "Description": "Imperative programming (C#, Go, Rust, ...)",
+        "MaxPoints": 1125
+      },
+
+      {
+        "Name": "A3-2-C2-3 Dynamic",
+        "Description": "Dynamically typed programming languages (JavaScript, HTML, CSS, ...)",
+        "MaxPoints": 1125
+      },
+
+      {
+        "Name": "A3-2-C2-4 AI",
+        "Description": "DeepLearning",
+        "MaxPoints": 1125
+      },
+
+      {
+        "Name": "A3-2-C3 Optimiser",
+        "Description": "Optimiser le code source du logiciel en réalisant des opérations de « réusinage » et en exploitant les résultats des différents tests réalisés lors de son développement afin d’augmenter la lisibilité et maintenabilité du code et de réduire la consommation des diverses ressources (mémoire, disque, processeur, énergie…) et ainsi garantir sa performance (temps de réponse…).",
+        "MaxPoints": 2500
+      },
+
+      {
+        "Name": "A3-3-C1 Interactions",
+        "Description": "Programmer les interactions entre les différents composants visuels de l’interface décrites dans la spécification afin de présenter à l’utilisateur l’information pertinente de façon intuitive.",
+        "MaxPoints": 2500
+      },
+
+      {
+        "Name": "A3-3-C2 Responsivité ",
+        "Description": "Assurer l’interactivité et la responsivité du logiciel par l’utilisation de frameworks et langages de programmation adaptés afin de le rendre dynamique et navigable sur les différentes plateformes visées (PC, Mac, mobiles, tablettes …) quelles que soient la taille et l’orientation de l’écran.",
+        "MaxPoints": 2500
+      },
+
+      {
+        "Name": "A3-4-C1 Déployer",
+        "Description": "Déployer les solutions techniques retenues pour ne pas introduire de vulnérabilité et réduire au maximum la surface d’attaque.",
+        "MaxPoints": 2500
+      }
+    ]
+  },
+
+  {
+    "Name": "A4 Test",
+    "Categories": [
+      {
+        "Name": "A4-1-C1 Concevoir",
+        "Description": "Concevoir l’environnement de test, en définissant les indicateurs de performance en fonction des résultats attendus et des facteurs de décisions (montée en charge…) pour valider la cohérence avec le cahier des charges.",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A4-1-C2 Mise en œuvre",
+        "Description": "Mettre en œuvre les phases de test béta, en situation réelle auprès d’un échantillon représentatif d’utilisateurs pour permettre de sécuriser le lancement à grande échelle.",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A4-1-C3 Conformité",
+        "Description": "Vérifier la conformité des résultats obtenus dans l’environnement final en mettant en œuvre la phase de test d’intégration afin d’assurer la validité de l’aspect fonctionnel, des performances et de la fiabilité du logiciel.",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A4-1-C4 Intrusion",
+        "Description": "Mettre en œuvre la phase de test de pénétration (ou intrusion) en simulant des attaques non autorisées en interne et en externe sur les différents niveaux de l’application logicielle afin de vérifier le niveau de sécurité lié à l’accès aux données sensibles de celle-ci.",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A4-1-C5 Jeux d’essais",
+        "Description": "Mettre en œuvre les jeux d’essais et de tests du logiciel dans le respect des plans de test élaborés afin d’établir des indicateurs sur la stabilité du logiciel et garantir la satisfaction des utilisateurs.",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A4-2-C1 Automatiser",
+        "Description": "Automatiser les tâches récurrentes afin de rendre systématique les étapes de la production du logiciel et ainsi éviter les risques d’erreurs humaines.",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A4-2-C2 Rédiger",
+        "Description": "Rédiger les documentations techniques, en français ou en anglais, à destination de l’équipe de maintenance afin de faire le transfert de compétences dans les meilleures conditions, et à destination de l’équipe d’exploitation afin de faciliter le fonctionnement du logiciel au quotidien et de rendre plus efficace la résolution de problèmes.",
+        "MaxPoints": 875
+      },
+
+      {
+        "Name": "A4-2-C3 Mise en production",
+        "Description": "Assurer la mise en production du logiciel développé en accompagnant les utilisateurs à le prendre en main, en s’appuyant sur des consignes et conseils d’utilisation, afin d’assurer un déploiement optimal.",
+        "MaxPoints": 875
+      }
+    ]
   }
+
 ]

@@ -24,7 +24,7 @@ Your grades will be saved locally.
         for (int i = 0; i < explodedInput.Count; i++)
         {
             if (DateTime.TryParse(explodedInput[i], out DateTime val) == true){
-                grades.Add(new KeyValuePair<string, int>( explodedInput[i + 1], int.Parse(explodedInput[i + 3]) ));
+                grades.Add(new KeyValuePair<string, int>( explodedInput[i + 1], int.Parse(explodedInput[i + 2]) ));
             }
         }
 

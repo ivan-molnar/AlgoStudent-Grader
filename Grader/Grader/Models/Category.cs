@@ -22,11 +22,12 @@
             this.NGrades = 0;
             this.Max = 0;
 
-            foreach (var grade in this.Grades)
+            foreach (int grade in this.Grades)
             {
-                this.SumPoints += grade;
+                int gradeP = grade * this.MaxPoints / 100;
+                this.SumPoints += gradeP;
                 this.NGrades += 1;
-                this.Max = this.Max > grade ? this.Max : grade;
+                this.Max = this.Max > gradeP ? this.Max : gradeP;
             }
 
             this.Avg = this.NGrades != 0 ? this.SumPoints / this.NGrades : 0;

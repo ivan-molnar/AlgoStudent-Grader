@@ -35,8 +35,9 @@
 
             if(actId == gradeId)    // Définir does not go to its place
             {
+                // We substring to the identifier to avoid special characters
                 this.Categories
-                    .Where(categ => String.Equals(categ.Name.Substring(0, categ.Name.IndexOf(" ")), name.Substring(0, name.IndexOf(" ")), StringComparison.Ordinal))
+                    .Where(categ => categ.Name.StartsWith(name.Substring(0, name.IndexOf(" "))))
                     .ToList()
                     .ForEach(categ => categ.Grades.Add(grade));
             }
