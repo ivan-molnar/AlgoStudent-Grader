@@ -13,8 +13,8 @@
     </HeaderContent>
     <RowTemplate>
         <MudTd DataLabel="Name">@context.Name</MudTd>
-        <MudTd DataLabel="Grade">@(context.Grade*100/context.MaxPoints)%</MudTd>
-        <MudTd DataLabel="Importance">@context.Potential</MudTd>
+        <MudTd DataLabel="Grade">@(Math.Round(context.Grade * 100 / context.MaxPoints, 2)) %</MudTd>
+        <MudTd DataLabel="Importance">@(Math.Round(context.Potential, 2))</MudTd>
         <MudTd DataLabel="Description">@context.Description</MudTd>
     </RowTemplate>
     <PagerContent>

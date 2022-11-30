@@ -1,41 +1,41 @@
-[
+ï»¿[
   {
     "Name": "A1 Analyse",
     "TheoricalTotal": 11500,
     "Categories": [
       {
         "Name": "A1-1-C1 Besoins",
-        "Description": "Analyser les besoins exprimés et problématiques rencontrées par le marché pouvant faire l’objet de la création d’un logiciel en s’appuyant sur une démarche scientifique et méthodique (collecte de faits, hypothèses, identification des parties prenantes et futurs utilisateurs, tests et résultats) et en faisant preuve d’esprit d’analyse et de synthèse afin de faire remonter l’expérience utilisateurs et ainsi définir les objectifs à atteindre.",
+        "Description": "Analyser les besoins exprimÃ©s et problÃ©matiques rencontrÃ©es par le marchÃ© pouvant faire lâ€™objet de la crÃ©ation dâ€™un logiciel en sâ€™appuyant sur une dÃ©marche scientifique et mÃ©thodique (collecte de faits, hypothÃ¨ses, identification des parties prenantes et futurs utilisateurs, tests et rÃ©sultats) et en faisant preuve dâ€™esprit dâ€™analyse et de synthÃ¨se afin de faire remonter lâ€™expÃ©rience utilisateurs et ainsi dÃ©finir les objectifs Ã  atteindre.",
         "MaxPoints": 2250
       },
 
       {
         "Name": "A1-1-C2 Valider",
-        "Description": "Valider le besoin identifié sur un marché, en prenant en compte les influences des différentes composantes de l’environnement (technologique -économique – politique – juridique – sociologique – écologique – démographique …) afin de s’assurer de sa véracité, sa faisabilité technique et sa viabilité économique.",
+        "Description": "Valider le besoin identifiÃ© sur un marchÃ©, en prenant en compte les influences des diffÃ©rentes composantes de lâ€™environnement (technologique -Ã©conomique â€“ politique â€“ juridique â€“ sociologique â€“ Ã©cologique â€“ dÃ©mographique â€¦) afin de sâ€™assurer de sa vÃ©racitÃ©, sa faisabilitÃ© technique et sa viabilitÃ© Ã©conomique.",
         "MaxPoints": 1250
       },
 
       {
         "Name": "A1-2-C1 Client",
-        "Description": "Analyser la demande du client, en l’interrogeant sur son contexte, ses problématiques liées à son activité, ses enjeux, ses contraintes et ses objectifs afin d’appréhender le périmètre de sa demande et obtenir un premier cadrage du futur logiciel.",
+        "Description": "Analyser la demande du client, en lâ€™interrogeant sur son contexte, ses problÃ©matiques liÃ©es Ã  son activitÃ©, ses enjeux, ses contraintes et ses objectifs afin dâ€™apprÃ©hender le pÃ©rimÃ¨tre de sa demande et obtenir un premier cadrage du futur logiciel.",
         "MaxPoints": 1250
       },
 
       {
         "Name": "A1-2-C2 Besoins",
-        "Description": "Analyser les besoins opérationnels du client en l’accompagnant dans l’identification des usages et des bénéfices attendus afin de faire émerger les idées de fonctionnalités.",
+        "Description": "Analyser les besoins opÃ©rationnels du client en lâ€™accompagnant dans lâ€™identification des usages et des bÃ©nÃ©fices attendus afin de faire Ã©merger les idÃ©es de fonctionnalitÃ©s.",
         "MaxPoints": 2250
       },
 
       {
         "Name": "A1-3-C1 Accompagner",
-        "Description": "Accompagner les entités dirigeantes et parties prenantes du logiciel dans le choix des solutions à développer en relevant les avantages et inconvénients de chacune, en faisant preuve de vulgarisation du langage employé sur les technologies, en confirmant la bonne compréhension des enjeux et des attendus liés au projet de création logicielle pour définir plus précisément les usages qui en seront faits.",
+        "Description": "Accompagner les entitÃ©s dirigeantes et parties prenantes du logiciel dans le choix des solutions Ã  dÃ©velopper en relevant les avantages et inconvÃ©nients de chacune, en faisant preuve de vulgarisation du langage employÃ© sur les technologies, en confirmant la bonne comprÃ©hension des enjeux et des attendus liÃ©s au projet de crÃ©ation logicielle pour dÃ©finir plus prÃ©cisÃ©ment les usages qui en seront faits.",
         "MaxPoints": 2250
       },
 
       {
         "Name": "A1-3-C2 Dossier",
-        "Description": "Réaliser un dossier de conception et de développement du logiciel souhaité, en prenant en compte les objectifs définis, les fonctionnalités et spécifications à mettre en œuvre, les coûts inhérents au développement et à l’exploitation du logiciel, tout en restant force de proposition de nouvelles solutions issues d’une veille réalisée sur les innovations du marché afin de formaliser de façon optimale le cahier des charges du projet.",
+        "Description": "RÃ©aliser un dossier de conception et de dÃ©veloppement du logiciel souhaitÃ©, en prenant en compte les objectifs dÃ©finis, les fonctionnalitÃ©s et spÃ©cifications Ã  mettre en Å“uvre, les coÃ»ts inhÃ©rents au dÃ©veloppement et Ã  lâ€™exploitation du logiciel, tout en restant force de proposition de nouvelles solutions issues dâ€™une veille rÃ©alisÃ©e sur les innovations du marchÃ© afin de formaliser de faÃ§on optimale le cahier des charges du projet.",
         "MaxPoints": 2250
       }
     ]
@@ -47,85 +47,85 @@
     "Categories": [
       {
         "Name": "A2-1-C1 Concevoir",
-        "Description": "Concevoir l’architecture du logiciel souhaité en collaboration avec les équipes de développeurs, en divisant et isolant ses différentes couches (de l’interface utilisateur jusqu’au cœur des règles métier) afin de faciliter le développement, l’évolution, le déploiement et la maintenance de celui-ci.",
+        "Description": "Concevoir lâ€™architecture du logiciel souhaitÃ© en collaboration avec les Ã©quipes de dÃ©veloppeurs, en divisant et isolant ses diffÃ©rentes couches (de lâ€™interface utilisateur jusquâ€™au cÅ“ur des rÃ¨gles mÃ©tier) afin de faciliter le dÃ©veloppement, lâ€™Ã©volution, le dÃ©ploiement et la maintenance de celui-ci.",
         "MaxPoints": 1575
       },
 
       {
-        "Name": "A2-1-C2 Modéliser",
-        "Description": "Modéliser les interactions homme-machine nécessaires à l’utilisation efficace du logiciel, en hiérarchisant les informations affichées et définissant l’enchainement des tâches, afin de concevoir une interface utilisateur ergonomique garantissant une expérience utilisateur optimale.",
+        "Name": "A2-1-C2 ModÃ©liser",
+        "Description": "ModÃ©liser les interactions homme-machine nÃ©cessaires Ã  lâ€™utilisation efficace du logiciel, en hiÃ©rarchisant les informations affichÃ©es et dÃ©finissant lâ€™enchainement des tÃ¢ches, afin de concevoir une interface utilisateur ergonomique garantissant une expÃ©rience utilisateur optimale.",
         "MaxPoints": 875
       },
 
       {
-        "Name": "A2-2-C1 Définir",
-        "Description": "Définir l’approche de programmation optimale en choisissant les plateformes, les langages, les algorithmes, les matériels et technologies les plus adaptés en fonction des demandes et des solutions identifiées afin de préparer au mieux le développement du logiciel.",
+        "Name": "A2-2-C1 DÃ©finir",
+        "Description": "DÃ©finir lâ€™approche de programmation optimale en choisissant les plateformes, les langages, les algorithmes, les matÃ©riels et technologies les plus adaptÃ©s en fonction des demandes et des solutions identifiÃ©es afin de prÃ©parer au mieux le dÃ©veloppement du logiciel.",
         "MaxPoints": 875
       },
 
       {
         "Name": "A2-2-C2 Choisir",
-        "Description": "Identifier et choisir l’ensemble des outils, logiciels et ressources (matérielles, budgétaires…) nécessaires au développement du logiciel afin d’organiser de façon optimale l’ensemble des étapes du projet de création et de développement du logiciel.",
+        "Description": "Identifier et choisir lâ€™ensemble des outils, logiciels et ressources (matÃ©rielles, budgÃ©tairesâ€¦) nÃ©cessaires au dÃ©veloppement du logiciel afin dâ€™organiser de faÃ§on optimale lâ€™ensemble des Ã©tapes du projet de crÃ©ation et de dÃ©veloppement du logiciel.",
         "MaxPoints": 875
       },
 
       {
-        "Name": "A2-2-C3 Sélectionner",
-        "Description": "Identifier et sélectionner les compétences complémentaires nécessaires à la réalisation du projet (graphistes, traducteurs, experts métiers…) afin de couvrir, avec une approche pluridisciplinaire, tous les besoins liés au projet de création logicielle.",
+        "Name": "A2-2-C3 SÃ©lectionner",
+        "Description": "Identifier et sÃ©lectionner les compÃ©tences complÃ©mentaires nÃ©cessaires Ã  la rÃ©alisation du projet (graphistes, traducteurs, experts mÃ©tiersâ€¦) afin de couvrir, avec une approche pluridisciplinaire, tous les besoins liÃ©s au projet de crÃ©ation logicielle.",
         "MaxPoints": 350
       },
 
       {
-        "Name": "A2-2-C4 Vérifier",
-        "Description": "Vérifier les conséquences juridiques liées à l’utilisation de logiciels existants, notamment open source, dans la solution finale afin de s’assurer de sa compatibilité avec la politique de licences de l’entreprise.",
+        "Name": "A2-2-C4 VÃ©rifier",
+        "Description": "VÃ©rifier les consÃ©quences juridiques liÃ©es Ã  lâ€™utilisation de logiciels existants, notamment open source, dans la solution finale afin de sâ€™assurer de sa compatibilitÃ© avec la politique de licences de lâ€™entreprise.",
         "MaxPoints": 350
       },
 
       {
         "Name": "A2-3-C1 Anticiper",
-        "Description": "Détecter en les anticipant, les risques liés à des inconnues technologiques (maturité, obsolescence, pérennité…) et réglementaires (RGPD, certifications, traçabilité, vie privée) pouvant intervenir lors des différentes phases du projet afin de les éliminer.",
+        "Description": "DÃ©tecter en les anticipant, les risques liÃ©s Ã  des inconnues technologiques (maturitÃ©, obsolescence, pÃ©rennitÃ©â€¦) et rÃ©glementaires (RGPD, certifications, traÃ§abilitÃ©, vie privÃ©e) pouvant intervenir lors des diffÃ©rentes phases du projet afin de les Ã©liminer.",
         "MaxPoints": 875
       },
 
       {
         "Name": "A2-3-C2 Prototyper",
-        "Description": "Réaliser les prototypes ou preuves de concept (POC) de nature à dissiper les inconnues technologiques afin de confirmer ou d’infirmer le travail de conception.",
+        "Description": "RÃ©aliser les prototypes ou preuves de concept (POC) de nature Ã  dissiper les inconnues technologiques afin de confirmer ou dâ€™infirmer le travail de conception.",
         "MaxPoints": 875
       },
 
       {
-        "Name": "A2-3-C3 Modéliser",
-        "Description": "Modéliser l’ensemble des données de l’application afin de faciliter leur manipulation et d’assurer leur persistance ainsi que leur sécurité (intrusion, utilisation malveillante, surface d’attaque…).",
+        "Name": "A2-3-C3 ModÃ©liser",
+        "Description": "ModÃ©liser lâ€™ensemble des donnÃ©es de lâ€™application afin de faciliter leur manipulation et dâ€™assurer leur persistance ainsi que leur sÃ©curitÃ© (intrusion, utilisation malveillante, surface dâ€™attaqueâ€¦).",
         "MaxPoints": 875
       },
 
       {
         "Name": "A2-4-C1 Choisir",
-        "Description": "Identifier et choisir les briques technologiques les plus adaptées au projet, en sélectionnant celles à créer et celles à utiliser (librairies, open source…), afin d’optimiser le développement (coûts, délais…).",
+        "Description": "Identifier et choisir les briques technologiques les plus adaptÃ©es au projet, en sÃ©lectionnant celles Ã  crÃ©er et celles Ã  utiliser (librairies, open sourceâ€¦), afin dâ€™optimiser le dÃ©veloppement (coÃ»ts, dÃ©laisâ€¦).",
         "MaxPoints": 1575
       }
     ]
   },
 
   {
-    "Name": "A3 Développement",
+    "Name": "A3 DÃ©veloppement",
     "TheoricalTotal": 21000,
     "Categories": [
       {
-        "Name": "A3-1-C1 Rédiger",
-        "Description": "Rédiger les plans de test du projet de développement du logiciel en identifiant l’ensemble des tests nécessaires à la vérification du bon fonctionnement du code afin de les exécuter de façon automatisée et systématique et ainsi garantir l’absence de régression.",
+        "Name": "A3-1-C1 RÃ©diger",
+        "Description": "RÃ©diger les plans de test du projet de dÃ©veloppement du logiciel en identifiant lâ€™ensemble des tests nÃ©cessaires Ã  la vÃ©rification du bon fonctionnement du code afin de les exÃ©cuter de faÃ§on automatisÃ©e et systÃ©matique et ainsi garantir lâ€™absence de rÃ©gression.",
         "MaxPoints": 1000
       },
 
       {
         "Name": "A3-1-C2 Indicateurs",
-        "Description": "Elaborer des indicateurs de suivi de production permettant de contrôler le bon fonctionnement du logiciel à grande échelle afin d’anticiper ou de détecter au plus tôt la survenue d’une panne.",
+        "Description": "Elaborer des indicateurs de suivi de production permettant de contrÃ´ler le bon fonctionnement du logiciel Ã  grande Ã©chelle afin dâ€™anticiper ou de dÃ©tecter au plus tÃ´t la survenue dâ€™une panne.",
         "MaxPoints": 1000
       },
 
       {
         "Name": "A3-2-C1 Algorithmes",
-        "Description": "Sélectionner ou concevoir les algorithmes les plus pertinents afin de satisfaire les tests unitaires et garantir la stabilité et la performance du système.",
+        "Description": "SÃ©lectionner ou concevoir les algorithmes les plus pertinents afin de satisfaire les tests unitaires et garantir la stabilitÃ© et la performance du systÃ¨me.",
         "MaxPoints": 4500
       },
 
@@ -155,25 +155,25 @@
 
       {
         "Name": "A3-2-C3 Optimiser",
-        "Description": "Optimiser le code source du logiciel en réalisant des opérations de « réusinage » et en exploitant les résultats des différents tests réalisés lors de son développement afin d’augmenter la lisibilité et maintenabilité du code et de réduire la consommation des diverses ressources (mémoire, disque, processeur, énergie…) et ainsi garantir sa performance (temps de réponse…).",
+        "Description": "Optimiser le code source du logiciel en rÃ©alisant des opÃ©rations de Â«Â rÃ©usinageÂ Â» et en exploitant les rÃ©sultats des diffÃ©rents tests rÃ©alisÃ©s lors de son dÃ©veloppement afin dâ€™augmenter la lisibilitÃ© et maintenabilitÃ© du code et de rÃ©duire la consommation des diverses ressources (mÃ©moire, disque, processeur, Ã©nergieâ€¦) et ainsi garantir sa performance (temps de rÃ©ponseâ€¦).",
         "MaxPoints": 2500
       },
 
       {
         "Name": "A3-3-C1 Interactions",
-        "Description": "Programmer les interactions entre les différents composants visuels de l’interface décrites dans la spécification afin de présenter à l’utilisateur l’information pertinente de façon intuitive.",
+        "Description": "Programmer les interactions entre les diffÃ©rents composants visuels de lâ€™interface dÃ©crites dans la spÃ©cification afin de prÃ©senter Ã  lâ€™utilisateur lâ€™information pertinente de faÃ§on intuitive.",
         "MaxPoints": 2500
       },
 
       {
-        "Name": "A3-3-C2 Responsivité ",
-        "Description": "Assurer l’interactivité et la responsivité du logiciel par l’utilisation de frameworks et langages de programmation adaptés afin de le rendre dynamique et navigable sur les différentes plateformes visées (PC, Mac, mobiles, tablettes …) quelles que soient la taille et l’orientation de l’écran.",
+        "Name": "A3-3-C2 ResponsivitÃ© ",
+        "Description": "Assurer lâ€™interactivitÃ© et la responsivitÃ© du logiciel par lâ€™utilisation de frameworks et langages de programmation adaptÃ©s afin de le rendre dynamique et navigable sur les diffÃ©rentes plateformes visÃ©es (PC, Mac, mobiles, tablettes â€¦) quelles que soient la taille et lâ€™orientation de lâ€™Ã©cran.",
         "MaxPoints": 2500
       },
 
       {
-        "Name": "A3-4-C1 Déployer",
-        "Description": "Déployer les solutions techniques retenues pour ne pas introduire de vulnérabilité et réduire au maximum la surface d’attaque.",
+        "Name": "A3-4-C1 DÃ©ployer",
+        "Description": "DÃ©ployer les solutions techniques retenues pour ne pas introduire de vulnÃ©rabilitÃ© et rÃ©duire au maximum la surface dâ€™attaque.",
         "MaxPoints": 2500
       }
     ]
@@ -185,49 +185,49 @@
     "Categories": [
       {
         "Name": "A4-1-C1 Concevoir",
-        "Description": "Concevoir l’environnement de test, en définissant les indicateurs de performance en fonction des résultats attendus et des facteurs de décisions (montée en charge…) pour valider la cohérence avec le cahier des charges.",
+        "Description": "Concevoir lâ€™environnement de test, en dÃ©finissant les indicateurs de performance en fonction des rÃ©sultats attendus et des facteurs de dÃ©cisions (montÃ©e en chargeâ€¦) pour valider la cohÃ©rence avec le cahier des charges.",
         "MaxPoints": 875
       },
 
       {
-        "Name": "A4-1-C2 Mise en œuvre",
-        "Description": "Mettre en œuvre les phases de test béta, en situation réelle auprès d’un échantillon représentatif d’utilisateurs pour permettre de sécuriser le lancement à grande échelle.",
+        "Name": "A4-1-C2 Mise en Å“uvre",
+        "Description": "Mettre en Å“uvre les phases de test bÃ©ta, en situation rÃ©elle auprÃ¨s dâ€™un Ã©chantillon reprÃ©sentatif dâ€™utilisateurs pour permettre de sÃ©curiser le lancement Ã  grande Ã©chelle.",
         "MaxPoints": 875
       },
 
       {
-        "Name": "A4-1-C3 Conformité",
-        "Description": "Vérifier la conformité des résultats obtenus dans l’environnement final en mettant en œuvre la phase de test d’intégration afin d’assurer la validité de l’aspect fonctionnel, des performances et de la fiabilité du logiciel.",
+        "Name": "A4-1-C3 ConformitÃ©",
+        "Description": "VÃ©rifier la conformitÃ© des rÃ©sultats obtenus dans lâ€™environnement final en mettant en Å“uvre la phase de test dâ€™intÃ©gration afin dâ€™assurer la validitÃ© de lâ€™aspect fonctionnel, des performances et de la fiabilitÃ© du logiciel.",
         "MaxPoints": 875
       },
 
       {
         "Name": "A4-1-C4 Intrusion",
-        "Description": "Mettre en œuvre la phase de test de pénétration (ou intrusion) en simulant des attaques non autorisées en interne et en externe sur les différents niveaux de l’application logicielle afin de vérifier le niveau de sécurité lié à l’accès aux données sensibles de celle-ci.",
+        "Description": "Mettre en Å“uvre la phase de test de pÃ©nÃ©tration (ou intrusion) en simulant des attaques non autorisÃ©es en interne et en externe sur les diffÃ©rents niveaux de lâ€™application logicielle afin de vÃ©rifier le niveau de sÃ©curitÃ© liÃ© Ã  lâ€™accÃ¨s aux donnÃ©es sensibles de celle-ci.",
         "MaxPoints": 875
       },
 
       {
-        "Name": "A4-1-C5 Jeux d’essais",
-        "Description": "Mettre en œuvre les jeux d’essais et de tests du logiciel dans le respect des plans de test élaborés afin d’établir des indicateurs sur la stabilité du logiciel et garantir la satisfaction des utilisateurs.",
+        "Name": "A4-1-C5 Jeux dâ€™essais",
+        "Description": "Mettre en Å“uvre les jeux dâ€™essais et de tests du logiciel dans le respect des plans de test Ã©laborÃ©s afin dâ€™Ã©tablir des indicateurs sur la stabilitÃ© du logiciel et garantir la satisfaction des utilisateurs.",
         "MaxPoints": 875
       },
 
       {
         "Name": "A4-2-C1 Automatiser",
-        "Description": "Automatiser les tâches récurrentes afin de rendre systématique les étapes de la production du logiciel et ainsi éviter les risques d’erreurs humaines.",
+        "Description": "Automatiser les tÃ¢ches rÃ©currentes afin de rendre systÃ©matique les Ã©tapes de la production du logiciel et ainsi Ã©viter les risques dâ€™erreurs humaines.",
         "MaxPoints": 875
       },
 
       {
-        "Name": "A4-2-C2 Rédiger",
-        "Description": "Rédiger les documentations techniques, en français ou en anglais, à destination de l’équipe de maintenance afin de faire le transfert de compétences dans les meilleures conditions, et à destination de l’équipe d’exploitation afin de faciliter le fonctionnement du logiciel au quotidien et de rendre plus efficace la résolution de problèmes.",
+        "Name": "A4-2-C2 RÃ©diger",
+        "Description": "RÃ©diger les documentations techniques, en franÃ§ais ou en anglais, Ã  destination de lâ€™Ã©quipe de maintenance afin de faire le transfert de compÃ©tences dans les meilleures conditions, et Ã  destination de lâ€™Ã©quipe dâ€™exploitation afin de faciliter le fonctionnement du logiciel au quotidien et de rendre plus efficace la rÃ©solution de problÃ¨mes.",
         "MaxPoints": 875
       },
 
       {
         "Name": "A4-2-C3 Mise en production",
-        "Description": "Assurer la mise en production du logiciel développé en accompagnant les utilisateurs à le prendre en main, en s’appuyant sur des consignes et conseils d’utilisation, afin d’assurer un déploiement optimal.",
+        "Description": "Assurer la mise en production du logiciel dÃ©veloppÃ© en accompagnant les utilisateurs Ã  le prendre en main, en sâ€™appuyant sur des consignes et conseils dâ€™utilisation, afin dâ€™assurer un dÃ©ploiement optimal.",
         "MaxPoints": 875
       }
     ]
@@ -239,19 +239,19 @@
     "Categories": [
       {
         "Name": "A5-1-C1 Corrective",
-        "Description": "Assurer la maintenance corrective du logiciel et anticiper l’obsolescence des technologies au travers d’une veille active afin de ne pas accumuler de la dette technique.",
+        "Description": "Assurer la maintenance corrective du logiciel et anticiper lâ€™obsolescence des technologies au travers dâ€™une veille active afin de ne pas accumuler de la dette technique.",
         "MaxPoints": 1000
       },
 
       {
         "Name": "A5-2-C1 Evolutive",
-        "Description": "Assurer la maintenance évolutive du logiciel en s’appuyant sur une veille des nouveaux usages et des nouveaux cyber-risques tout en prenant en compte les retours d’expérience et en saisissant les opportunités d’amélioration du code pour anticiper les attentes du client/marché.",
+        "Description": "Assurer la maintenance Ã©volutive du logiciel en sâ€™appuyant sur une veille des nouveaux usages et des nouveaux cyber-risques tout en prenant en compte les retours dâ€™expÃ©rience et en saisissant les opportunitÃ©s dâ€™amÃ©lioration du code pour anticiper les attentes du client/marchÃ©.",
         "MaxPoints": 1000
       },
 
       {
         "Name": "A5-3-C1 Suivi",
-        "Description": "Assurer la mise à jour de la solution logicielle au regard des évolutions réglementaires afin de lui permettre de maintenir sa conformité (RGPD…).",
+        "Description": "Assurer la mise Ã  jour de la solution logicielle au regard des Ã©volutions rÃ©glementaires afin de lui permettre de maintenir sa conformitÃ© (RGPDâ€¦).",
         "MaxPoints": 1000
       }
     ]
@@ -262,62 +262,62 @@
     "TheoricalTotal": 8400,
     "Categories": [
       {
-        "Name": "A6-1-C1 Responsabilités",
-        "Description": "Définir et répartir les tâches, rôles et responsabilités de chaque collaborateur en lien avec le projet de création logicielle, en fixant et en priorisant des indicateurs à suivre (qualité du livrable, dépassement du budget, du temps…) afin de permettre le partage de compétences, d’expériences et d’informations utile à l’atteinte des objectifs individuels et collectifs.",
+        "Name": "A6-1-C1 ResponsabilitÃ©s",
+        "Description": "DÃ©finir et rÃ©partir les tÃ¢ches, rÃ´les et responsabilitÃ©s de chaque collaborateur en lien avec le projet de crÃ©ation logicielle, en fixant et en priorisant des indicateurs Ã  suivre (qualitÃ© du livrable, dÃ©passement du budget, du tempsâ€¦) afin de permettre le partage de compÃ©tences, dâ€™expÃ©riences et dâ€™informations utile Ã  lâ€™atteinte des objectifs individuels et collectifs.",
         "MaxPoints": 1000
       },
 
       {
         "Name": "A6-1-C2 Outils",
-        "Description": "Concevoir des outils de pilotage et de suivi permettant de contrôler la mise en œuvre ou l’adaptation du projet en collaborant avec des développeurs présents ou à distance afin d’assurer l’atteinte des objectifs visés en termes de qualité et délais définis par le cahier des charges.",
+        "Description": "Concevoir des outils de pilotage et de suivi permettant de contrÃ´ler la mise en Å“uvre ou lâ€™adaptation du projet en collaborant avec des dÃ©veloppeurs prÃ©sents ou Ã  distance afin dâ€™assurer lâ€™atteinte des objectifs visÃ©s en termes de qualitÃ© et dÃ©lais dÃ©finis par le cahier des charges.",
         "MaxPoints": 400
       },
 
       {
         "Name": "A6-1-C3 Indicateurs",
-        "Description": "Assurer le suivi des indicateurs et la rédaction des rapports afin d’assurer à toutes les parties prenantes l’accès au même niveau d’information et de les alerter le cas échéant.",
+        "Description": "Assurer le suivi des indicateurs et la rÃ©daction des rapports afin dâ€™assurer Ã  toutes les parties prenantes lâ€™accÃ¨s au mÃªme niveau dâ€™information et de les alerter le cas Ã©chÃ©ant.",
         "MaxPoints": 400
       },
 
       {
         "Name": "A6-2-C1 Veille",
-        "Description": "Réaliser une veille technologique sur les innovations permettant d’apporter des plus-values à la solution logicielle en vue d’intégrer de nouvelles fonctionnalités ou des gains d’efficacité.",
+        "Description": "RÃ©aliser une veille technologique sur les innovations permettant dâ€™apporter des plus-values Ã  la solution logicielle en vue dâ€™intÃ©grer de nouvelles fonctionnalitÃ©s ou des gains dâ€™efficacitÃ©.",
         "MaxPoints": 400
       },
 
       {
-        "Name": "A6-2-C2 Opportunités",
-        "Description": "Décider et mettre en œuvre les nouvelles opportunités identifiées par le travail de veille, auprès des développeurs tout en faisant valider leur pertinence.",
+        "Name": "A6-2-C2 OpportunitÃ©s",
+        "Description": "DÃ©cider et mettre en Å“uvre les nouvelles opportunitÃ©s identifiÃ©es par le travail de veille, auprÃ¨s des dÃ©veloppeurs tout en faisant valider leur pertinence.",
         "MaxPoints": 400
       },
 
       {
         "Name": "A6-3-C1 Organiser",
-        "Description": "Organiser la collaboration de l’équipe en télétravail ou en face à face, en permettant à chacun d’exprimer ses idées et de proposer des solutions aux difficultés rencontrées afin de renforcer le travail coopératif.",
+        "Description": "Organiser la collaboration de lâ€™Ã©quipe en tÃ©lÃ©travail ou en face Ã  face, en permettant Ã  chacun dâ€™exprimer ses idÃ©es et de proposer des solutions aux difficultÃ©s rencontrÃ©es afin de renforcer le travail coopÃ©ratif.",
         "MaxPoints": 1000
       },
 
       {
         "Name": "A6-3-C2 Collaboration",
-        "Description": "Elaborer les conventions et règles de fonctionnement destinées à l’équipe en charge du développement du logiciel (étapes clés, styles de code à employer, bonnes pratiques à respecter…) afin d’assurer un travail collaboratif efficace garant de l’atteinte des objectifs fixés.",
+        "Description": "Elaborer les conventions et rÃ¨gles de fonctionnement destinÃ©es Ã  lâ€™Ã©quipe en charge du dÃ©veloppement du logiciel (Ã©tapes clÃ©s, styles de code Ã  employer, bonnes pratiques Ã  respecterâ€¦) afin dâ€™assurer un travail collaboratif efficace garant de lâ€™atteinte des objectifs fixÃ©s.",
         "MaxPoints": 1800
       },
 
       {
-        "Name": "A6-3-C3 Prévenir",
-        "Description": "Prévenir et gérer l’ensemble des risques et des imprévus (situations difficiles, conflits…) en adaptant avec agilité et créativité les étapes et les actions du projet afin d’apporter des solutions partagées et ainsi assurer la continuité du projet dans des conditions optimales.",
+        "Name": "A6-3-C3 PrÃ©venir",
+        "Description": "PrÃ©venir et gÃ©rer lâ€™ensemble des risques et des imprÃ©vus (situations difficiles, conflitsâ€¦) en adaptant avec agilitÃ© et crÃ©ativitÃ© les Ã©tapes et les actions du projet afin dâ€™apporter des solutions partagÃ©es et ainsi assurer la continuitÃ© du projet dans des conditions optimales.",
         "MaxPoints": 1000
       },
 
       {
-        "Name": "A6-3-C4 Productivité",
-        "Description": "Identifier les gains de productivité possibles en lien avec les parties prenantes dédiées au projet en détectant les opportunités d’automatisation des différentes tâches et activités réalisées ou à réaliser afin d’assurer l’atteinte des objectifs dans les délais imposés.",
+        "Name": "A6-3-C4 ProductivitÃ©",
+        "Description": "Identifier les gains de productivitÃ© possibles en lien avec les parties prenantes dÃ©diÃ©es au projet en dÃ©tectant les opportunitÃ©s dâ€™automatisation des diffÃ©rentes tÃ¢ches et activitÃ©s rÃ©alisÃ©es ou Ã  rÃ©aliser afin dâ€™assurer lâ€™atteinte des objectifs dans les dÃ©lais imposÃ©s.",
         "MaxPoints": 1000
       },
 
       {
         "Name": "A6-4-C1 Parties prenantes",
-        "Description": "Transmettre les messages auprès des différentes parties prenantes, en prenant soin d’adapter son vocabulaire au niveau de connaissances de ses interlocuteurs, en vulgarisant si nécessaire les informations techniques pour permettre une communication fluide et efficace.",
+        "Description": "Transmettre les messages auprÃ¨s des diffÃ©rentes parties prenantes, en prenant soin dâ€™adapter son vocabulaire au niveau de connaissances de ses interlocuteurs, en vulgarisant si nÃ©cessaire les informations techniques pour permettre une communication fluide et efficace.",
         "MaxPoints": 1000
       }
     ]
@@ -328,8 +328,8 @@
     "TheoricalTotal": 20000,
     "Categories": [
       {
-        "Name": "A7-1-1 Précision",
-        "Description": "Exprimer ses idées avec précision",
+        "Name": "A7-1-1 PrÃ©cision",
+        "Description": "Exprimer ses idÃ©es avec prÃ©cision",
         "MaxPoints": 2000
       },
 
@@ -347,7 +347,7 @@
 
       {
         "Name": "A7-2-1 Media",
-        "Description": "Comprendre tout type de supports audio ou vidéo",
+        "Description": "Comprendre tout type de supports audio ou vidÃ©o",
         "MaxPoints": 2000
       },
 
@@ -359,7 +359,7 @@
 
       {
         "Name": "A7-3-1 Precision",
-        "Description": "Exprimer ses idées avec précision",
+        "Description": "Exprimer ses idÃ©es avec prÃ©cision",
         "MaxPoints": 2000
       },
 
@@ -371,7 +371,7 @@
 
       {
         "Name": "A7-3-3 Structure",
-        "Description": "Rédiger et structurer un texte",
+        "Description": "RÃ©diger et structurer un texte",
         "MaxPoints": 2000
       },
 
@@ -383,7 +383,7 @@
 
       {
         "Name": "A7-4-2 Vocabulary",
-        "Description": "Maîtriser un vocabulaire riche",
+        "Description": "MaÃ®triser un vocabulaire riche",
         "MaxPoints": 2000
       }
     ]
@@ -395,7 +395,7 @@
     "Categories": [
       {
         "Name": "A8-1-1 Confiance",
-        "Description": "Avoir confiance en soi et s’affirmer",
+        "Description": "Avoir confiance en soi et sâ€™affirmer",
         "MaxPoints": 1430
       },
 
@@ -412,68 +412,68 @@
       },
 
       {
-        "Name": "A8-1-4 Se connaître",
-        "Description": "Se connaître pour révéler son potentiel",
+        "Name": "A8-1-4 Se connaÃ®tre",
+        "Description": "Se connaÃ®tre pour rÃ©vÃ©ler son potentiel",
         "MaxPoints": 1430
       },
 
       {
-        "Name": "A8-1-5 Savoir-être",
-        "Description": "Se démarquer par son savoir-être",
+        "Name": "A8-1-5 Savoir-Ãªtre",
+        "Description": "Se dÃ©marquer par son savoir-Ãªtre",
         "MaxPoints": 1430
       },
 
       {
         "Name": "A8-2-1 Orale",
-        "Description": "Communiquer efficacement à l’oral",
+        "Description": "Communiquer efficacement Ã  lâ€™oral",
         "MaxPoints": 1430
       },
 
       {
         "Name": "A8-2-2 Ecrite",
-        "Description": "Communiquer efficacement à l’écrit",
+        "Description": "Communiquer efficacement Ã  lâ€™Ã©crit",
         "MaxPoints": 1430
       },
 
       {
-        "Name": "A8-2-3 Différences culturelles",
-        "Description": "Comprendre les différences culturelles",
+        "Name": "A8-2-3 DiffÃ©rences culturelles",
+        "Description": "Comprendre les diffÃ©rences culturelles",
         "MaxPoints": 1430
       },
 
       {
         "Name": "A8-2-4 e-reputation",
-        "Description": "Maîtriser sa e-reputation",
+        "Description": "MaÃ®triser sa e-reputation",
         "MaxPoints": 1430
       },
 
       {
         "Name": "A8-3-1 Reformuler",
-        "Description": "Poser et reformuler des problèmes ",
+        "Description": "Poser et reformuler des problÃ¨mes ",
         "MaxPoints": 1430
       },
 
       {
-        "Name": "A8-3-2 Décomposer",
-        "Description": "Décomposer des problèmes",
+        "Name": "A8-3-2 DÃ©composer",
+        "Description": "DÃ©composer des problÃ¨mes",
         "MaxPoints": 1430
       },
 
       {
-        "Name": "A8-3-3 Curiosité/Créativité",
-        "Description": "Faire preuve de curiosité et créativité.",
+        "Name": "A8-3-3 CuriositÃ©/CrÃ©ativitÃ©",
+        "Description": "Faire preuve de curiositÃ© et crÃ©ativitÃ©.",
         "MaxPoints": 1430
       },
 
       {
         "Name": "A8-3-4 Visualiser",
-        "Description": "Visualiser un problème à plusieurs échelles",
+        "Description": "Visualiser un problÃ¨me Ã  plusieurs Ã©chelles",
         "MaxPoints": 1430
       },
 
       {
-        "Name": "A8-3-5 Généraliser",
-        "Description": "Transformer des cas particuliers en règles génériques",
+        "Name": "A8-3-5 GÃ©nÃ©raliser",
+        "Description": "Transformer des cas particuliers en rÃ¨gles gÃ©nÃ©riques",
         "MaxPoints": 1430
       }
     ]
