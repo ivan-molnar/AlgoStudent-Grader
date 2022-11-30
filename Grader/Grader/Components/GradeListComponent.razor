@@ -1,8 +1,53 @@
-﻿<h3>Yout grades</h3>
-
-
+﻿
+<MudTable Items="@grades" Dense="true" Hover="true" Filter="new Func<Category,bool>(FilterFunc)" SortLabel="Sort By">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Grades</MudText>
+        <MudSpacer />
+        <MudTextField @bind-Value="searchString" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh><MudTableSortLabel SortBy="new Func<Category, object>(x=>x.Name)">Name</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<Category, object>(x=>x.Grade*100/x.MaxPoints)">Grade</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<Category, object>(x=>x.Potential)" InitialDirection="SortDirection.Descending">Importance</MudTableSortLabel></MudTh>
+        <MudTh>Description</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Name">@context.Name</MudTd>
+        <MudTd DataLabel="Grade">@(context.Grade*100/context.MaxPoints)%</MudTd>
+        <MudTd DataLabel="Importance">@context.Potential</MudTd>
+        <MudTd DataLabel="Description">@context.Description</MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager />
+    </PagerContent>
+</MudTable>
 
 @code {
     [Parameter]
     public List<Activity> activities { get; set; }
+    public List<Category> grades = new List<Category>();
+
+    private string searchString = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        this.activities.ForEach(x => {
+            x.Categories.ForEach(cat =>
+            {
+                this.grades.Add(cat);
+            });
+        });
+    }
+
+
+    private bool FilterFunc(Category category)
+    {
+        if (string.IsNullOrWhiteSpace(searchString))
+            return true;
+        if (category.Name.Contains(searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+        if (category.Description.Contains(searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+        return false;
+    }
 }
